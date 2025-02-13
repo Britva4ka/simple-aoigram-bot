@@ -1,0 +1,20 @@
+BOT_TOKEN = YOUR-BOT-TOKEN
+ADMINS_ID = 123456789:987654321 # Admins ids separated using :
+MODERATORS_SUPPORT_GROUP_ID = -1001234567890 # The group for chatting with users (!!!It must me group with topics!!!)
+MODERATORS_FEEDBACK_GROUP_ID = -1001234567890 # The group for managing feedbacks (Common group)
+
+# Database settings
+
+POSTGRES_USER = postgres
+POSTGRES_PASSWORD = password
+POSTGRES_HOST = localhost
+POSTGRES_DATABASE = db-name
+POSTGRES_JOB_STORE = db-job-store-name
+
+REDIS_URL = redis://localhost:6379 # (Can skip to use MemoryStorage)
+WEB_APP_URL = https://google.com # (Url for your web app)
+WEB_APP_NAME = WEB APP # The name of your web app
+
+SENTRY_DSN = https://your-dsn  # Sentry DSN url (optional)
+
+# Remember to give bot admin status in all moder groups
