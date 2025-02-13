@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["bash", "-c", "alembic upgrade head && python main.py"]
+CMD ["bash", "-c", "alembic upgrade head && python __main__.py"]

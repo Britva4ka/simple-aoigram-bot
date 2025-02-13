@@ -88,7 +88,7 @@ alembic upgrade head
 ### 6. Run the Bot
 
 ```bash
-python main.py
+python __main__.py
 ```
 
 ---
